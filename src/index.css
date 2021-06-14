@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body, #root {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex: 1 0 auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.MuiPickersBasePicker-container .MuiPickersDay-daySelected {
+  background-color: #44B758;
+}
+
+.MuiPickersToolbar-toolbar,
+.MuiPickersClock-pin,
+.MuiPickersClockPointer-pointer {
+  background-color: #44B758;
+}
+
+.MuiPickersClockPointer-thumb {
+  border: 14px solid #44B758;
+}
